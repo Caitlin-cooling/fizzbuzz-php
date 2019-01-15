@@ -1,6 +1,6 @@
 <?php
   function fizzBuzz() {
-    foreach(range(0, 15) as $number) {
+    foreach(range(1, 15) as $number) {
       if($number % 15 == 0) {
         echo "FizzBuzz \n";
       } elseif($number % 3 == 0) {

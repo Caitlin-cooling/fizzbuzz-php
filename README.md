@@ -6,4 +6,4 @@ FizzBuzz is a game that returns the word Fizz when a given number is divisible b
 2. `cd fizzbuzz-php`
 3. Run `php fizzbuzz.php` from your command line to see the numbers/words printed
 
-![alt text](image.png)
+![alt text](new-image.png)
