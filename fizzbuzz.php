@@ -5,7 +5,10 @@
     for($x = 0; $x < count($numbers); $x++) {
       if($numbers[$x] % 3 == 0) {
         echo "Fizz \n";
-      } else {
+      } elseif($numbers[$x] % 5 == 0) {
+        echo "Buzz \n";
+      }
+      else {
         echo "{$numbers[$x]} \n";
       }
     }
